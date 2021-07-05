@@ -1,4 +1,4 @@
-# HoroscopoAzteca
+# Sofi
 
 _Sitio web con actividades que intentan dar tranquilidad a los estudiantes por unos minutos._
 
