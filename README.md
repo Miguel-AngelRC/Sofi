@@ -1,3 +1,18 @@
+# HoroscopoAzteca
+
+_Sitio web con actividades que intentan dar tranquilidad a los estudiantes por unos minutos._
+
+## Construido con 🛠️
+
+*  React js
+
+
+## Autor ✒️
+
+* **Miguel Ángel** - *Trabajo Inicial* - [Miguel-AngelRC](https://github.com/Miguel-AngelRC)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
