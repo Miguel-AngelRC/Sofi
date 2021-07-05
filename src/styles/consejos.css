@@ -1,0 +1,130 @@
+#emcabezado{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+/*Estilos para lista de consejos en pantalla*/
+
+#contenedorConsejos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.consejo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px 5px 0px 5px;
+    width: 250px;
+    box-shadow: 1px 1px 10px rgb(158, 152, 152);
+    cursor: pointer;
+}
+
+.consejo:hover{
+    color: white;
+    background-color: rgb(101, 170, 197);
+}
+
+.consejo h2{
+    display: block; 
+    font-size: 1.2em;
+    font-weight: normal
+}
+
+.consejo p{
+    font-size: .7em;
+    margin: 0px;
+    padding: 0px 3px 3px 0px;
+    width: 100%;
+    text-align: right;
+    color: rgb(58, 57, 58);
+}
+
+
+#contenedorApps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px 5px 0px 5px;
+    width: 250px;
+    box-shadow: 1px 1px 10px rgb(158, 152, 152);
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.app:hover{
+    color: white;
+    background-color: rgb(101, 170, 197);
+}
+
+.app h2{
+    display: block; 
+    font-size: 1.2em;
+    font-weight: normal
+}
+
+/* Estilos para consejo en popup*/
+#oscurecer{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(117, 117, 113, 0.493);
+}
+
+#popup{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 1px 10px rgb(101, 170, 197);
+    background-color: white;
+    width: 30%;
+    font-size: 1em;
+    border: 5px rgb(101, 170, 197) solid;
+    z-index: 5;
+}
+
+#popup p{
+ padding: 5px;
+ text-align: justify;
+}
+
+#cerrar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px;
+    padding: 5px 8px 0px 0px;
+    text-align: right;
+    font-weight: bold;
+}
+
+#cerrar p{
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+#cerrar p:hover{
+    color: red;
+}

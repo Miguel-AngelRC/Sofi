@@ -1,0 +1,39 @@
+#encabezado{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+/*Estilos para lista de consejos en pantalla*/
+
+#contendorLinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px 5px 0px 5px;
+    width: 250px;
+    box-shadow: 1px 1px 10px rgb(158, 152, 152);
+    cursor: pointer;
+}
+
+.link:hover{
+    color: white;
+    background-color: rgb(101, 170, 197);
+}
+
+.link h2{
+    display: block; 
+    font-size: 1.2em;
+    font-weight: normal
+}
