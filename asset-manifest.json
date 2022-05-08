@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Sofi/static/css/main.cdf5c7c0.chunk.css",
+    "main.js": "/Sofi/static/js/main.01989c8e.chunk.js",
+    "main.js.map": "/Sofi/static/js/main.01989c8e.chunk.js.map",
+    "runtime-main.js": "/Sofi/static/js/runtime-main.59b02b87.js",
+    "runtime-main.js.map": "/Sofi/static/js/runtime-main.59b02b87.js.map",
+    "static/js/2.cb2248da.chunk.js": "/Sofi/static/js/2.cb2248da.chunk.js",
+    "static/js/2.cb2248da.chunk.js.map": "/Sofi/static/js/2.cb2248da.chunk.js.map",
+    "static/js/3.b977b311.chunk.js": "/Sofi/static/js/3.b977b311.chunk.js",
+    "static/js/3.b977b311.chunk.js.map": "/Sofi/static/js/3.b977b311.chunk.js.map",
+    "index.html": "/Sofi/index.html",
+    "static/css/main.cdf5c7c0.chunk.css.map": "/Sofi/static/css/main.cdf5c7c0.chunk.css.map",
+    "static/js/2.cb2248da.chunk.js.LICENSE.txt": "/Sofi/static/js/2.cb2248da.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59b02b87.js",
+    "static/js/2.cb2248da.chunk.js",
+    "static/css/main.cdf5c7c0.chunk.css",
+    "static/js/main.01989c8e.chunk.js"
+  ]
+}
